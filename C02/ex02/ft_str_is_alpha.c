@@ -27,3 +27,13 @@ int	ft_str_is_alpha(char *str)
 	}
 	return (1);
 }
+
+#include<stdio.h>
+int main()
+{
+    int is_alpha;
+    char a[] = "swimmers4ever";
+    is_alpha = ft_str_is_alpha (a);
+    printf("%d\n", is_alpha);
+	return (0);
+}

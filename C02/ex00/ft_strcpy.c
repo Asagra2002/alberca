@@ -24,3 +24,13 @@ char	*ft_strcpy(char *dest, char *src)
 	dest [i] = src [i];
 	return (dest);
 }
+
+#include<stdio.h>
+int main()
+{
+    char dest[15] = "swimmers"; 
+    char src[15] = "4ever";
+    ft_strcpy(dest,src);
+    printf("%s\n", dest);
+    return (0);
+}

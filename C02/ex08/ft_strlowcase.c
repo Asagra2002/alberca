@@ -26,3 +26,12 @@ char	*ft_strlowcase(char *str)
 	}
 	return (str);
 }
+
+#include<stdio.h> 
+int main()
+{
+    char a[15] = "SWIMMERS4EVER";
+
+    printf("%s", ft_strlowcase (a));
+    return (0);
+}

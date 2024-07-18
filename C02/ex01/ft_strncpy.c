@@ -28,3 +28,13 @@ char	*ft_strncpy(char *dest, char *src, unsigned int n)
 	}
 	return (dest);
 }
+
+#include<stdio.h>
+int main()
+{
+    char dest[15] = "swimmers"; 
+    char src[15] = "4ever";
+    ft_strncpy(dest,src,4);
+    printf("%s\n", dest);
+    return (0);
+}

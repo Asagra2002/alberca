@@ -25,3 +25,13 @@ int	ft_str_is_lowercase(char *str)
 	}
 	return (1);
 }
+
+#include<stdio.h>
+int main()
+{
+    int is_lowercase;
+    char a[] = "swimmers4ever";
+    is_lowercase = ft_str_is_lowercase (a);
+    printf("%d\n", is_lowercase);
+	return (0);
+}

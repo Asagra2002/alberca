@@ -25,3 +25,13 @@ int	ft_str_is_uppercase(char *str)
 	}
 	return (1);
 }
+
+#include<stdio.h>
+int main()
+{
+    int is_uppercase;
+    char a[] = "swimmers4ever";
+    is_uppercase = ft_str_is_uppercase (a);
+    printf("%d\n", is_uppercase);
+	return (0);
+}

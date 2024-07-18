@@ -25,3 +25,13 @@ int	ft_str_is_printable(char *str)
 	}
 	return (1);
 }
+
+#include<stdio.h>
+int main(void)
+{
+    int is_printable;
+    char a[] = "\n\a";
+    is_printable = ft_str_is_printable (a);
+    printf("%d\n", is_printable);
+	return (0);
+}
